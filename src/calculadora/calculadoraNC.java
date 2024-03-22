@@ -17,7 +17,7 @@ public class calculadoraNC {
              double polarAngulo = scanner.nextDouble();
 
              PolarConv polar = new PolarConv(polarMagnitude, polarAngulo);
-             double[] coordenadaRetangular = polar.toRectangular();
+             double[] coordenadaRetangular = polar.paraRetangular();
 
              System.out.println("Coordenadas retangulares: ");
              System.out.println("x: " + coordenadaRetangular[0]);
