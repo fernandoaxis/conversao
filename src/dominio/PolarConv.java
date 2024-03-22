@@ -10,10 +10,10 @@ public class PolarConv {
 	        this.anguloGrau = angulograu;
 	    }
 
-	    public double[] toRectangular() {
-	        double angleInRadians = Math.toRadians(anguloGrau);
-	        double x = magnitude * Math.cos(angleInRadians);
-	        double y = magnitude * Math.sin(angleInRadians);
+	    public double[] paraRetangular() {
+	        double AngulosRadianos = Math.toRadians(anguloGrau);
+	        double x = magnitude * Math.cos(AngulosRadianos);
+	        double y = magnitude * Math.sin(AngulosRadianos);
 	        
 	        return new double[]{x, y};
 	    }
