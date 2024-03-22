@@ -17,16 +17,5 @@ public class PolarConv {
 	        
 	        return new double[]{x, y};
 	    }
-
-	    public static void main(String[] args) {
-	        PolarConv polarCoord = new PolarConv(5.0, 45.0); 
-	        
-	        double[] rectangularCoord = polarCoord.toRectangular(); 
-	        
-	        System.out.println("Coordenadas retangulares: ");
-	        System.out.println("x: " + rectangularCoord[0]);
-	        System.out.println("y: " + rectangularCoord[1]);
-	    }
-	    
 	}
 	
